@@ -15,4 +15,7 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import '../css/application.css';
+import '../css/tailwind/base.scss';
+import '../css/tailwind/components.scss';
+import '../css/buttons.scss';
+import '../css/tailwind/utilities.scss';
