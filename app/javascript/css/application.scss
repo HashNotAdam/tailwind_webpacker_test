@@ -1,0 +1,25 @@
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+
+.button {
+  @apply cursor-pointer;
+  @apply font-bold;
+  @apply inline-block;
+  @apply mt-2;
+  @apply no-underline;
+  @apply px-6;
+  @apply py-3;
+  @apply rounded-full;
+  @apply text-lg;
+  @apply text-center;
+  @apply tracking-tighter;
+}
+
+.main-button {
+  @apply bg-green-500;
+  @apply border-green-500;
+  @apply button;
+  @apply text-white;
+}
+
+@import "tailwindcss/utilities.css";
