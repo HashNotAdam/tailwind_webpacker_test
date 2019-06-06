@@ -1,5 +1,5 @@
-@import "tailwindcss/base.css";
-@import "tailwindcss/components.css";
+@tailwind base;
+@tailwind components;
 
 .button {
   @apply cursor-pointer;
@@ -22,4 +22,4 @@
   @apply text-white;
 }
 
-@import "tailwindcss/utilities.css";
+@tailwind utilities;
